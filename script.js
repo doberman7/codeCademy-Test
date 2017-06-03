@@ -1,4 +1,5 @@
 //ventana para probar jquery
+/*
 window.onload = function() {
     if (window.jQuery) {
         // jQuery is loaded
@@ -7,7 +8,7 @@ window.onload = function() {
         // jQuery is not loaded
         alert("Doesn't Work");
     }
-}
+}*/
 //Opacar y desOpacar boton
 $(document).ready(function() {
    $('div').mouseenter(function() {

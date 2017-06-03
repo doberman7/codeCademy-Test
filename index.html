@@ -1,25 +1,14 @@
 <html>
 	<head>
-		<title>Button Magic</title>
-        <link rel='stylesheet' type='text/css' href='stylesheet.css'>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<title>Button Magic</title>		
+      <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	</head>
 	<body>
      <div class='d'><br/><strong>Click Me!</strong></div>
 
-		 <!--Cargar js file, never work, what fuck its rong???? -->
-		 <scrip type='text/javascript' src='script.js' ></scrip>
-		<!--Opacar y desOpacar boton  -->
-		<script type="text/javascript">
-		 $(document).ready(function() {
- 		 		$('div').mouseenter(function() {
-		 			$(this).fadeTo('fast', 1);
- 				});
-				$('div').mouseleave(function() {
-		 			$('div').fadeTo('fast', 0.5);
- 				});
-			});
-		</script>
+		 <!--necesario es usar comillas dobles, de lo contrario no funcionará la referecnia -->
+		 <script type="text/javascript" src="script.js"></script>
 	</body>
 
 </html>
